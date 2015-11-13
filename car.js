@@ -1,4 +1,5 @@
-module.exports = function(color, Number){
+module.exports = function(color, NumberOfPeople, plateNumber){
 	this.color = color;
-	this.Number = Number;
+	this.NumberOfPeople = NumberOfPeople;
+	this.plate = plateNumber;
 }
